@@ -1,9 +1,13 @@
 {
   "name": "vendure-bulk-discounts",
   "version": "0.1.11",
-  "main": "./index.js",
   "description": "Adds bulk discounts to vendure",
   "repository": "https://github.com/Tyratox/vendure-bulk-discounts",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "files": [
+    "lib/**/*"
+  ],
   "author": "Nico Hauser",
   "license": "MIT",
   "scripts": {
